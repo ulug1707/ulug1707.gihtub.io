@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="system.css">
+    <script src="https://kit.fontawesome.com/61295bf12b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>Junior Penetration Tester</p>
+                <h1>Hi, I'm <span>Mr.ULugbek</span><br> From Uzbekistan</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>About Me  
+
+                        I am a cybersecurity specialist with a strong passion for ethical hacking, penetration testing, and SOC analysis. I have earned ISC2 CC and Cisco Ethical Hacker certifications and am currently preparing for the Burp Suite Certified Practitioner (BSCP) certification.  
+                        
+                        I actively participate in CTF competitions and create my own challenges. My expertise extends to Linux systems, network security, and exploit development, and I continuously expand my knowledge in these areas. I enjoy reverse engineering, scripting, and optimizing systems for better performance.  
+                        
+                        Currently, I am undergoing intensive training in both Red Team and Blue Team operations. My goal is to become a professional penetration tester and SOC analyst, mastering both offensive and defensive cybersecurity strategies. Additionally, I am building my web portfolio to showcase my skills, projects, and research.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Cybersecurity</span><br>Ethical Hacking</li>
+                                <li><span>Penetration Testing</span><br>(Web, Network, System)</li>
+                                <li><span>Red Team</span><br>Blue Team Operations</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>training </span><br>different platforms</li>
+                                <li><span>Try Hak Me</span><br>SOC anylysing, Active Directory </li>
+                                <li><span>Hack The Box</span><br>Network Fundamentlas, Active Directory</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Computer Science</span><br>Hardware,operations System, and etc.</li>
+                                <li><span>Pen-100-COURCES</span><br>Linux basic-1/2, windows basic-1/2 and Scripting:Bash,Python,Powershell,Network Scripting, and Linux/Windows networking servies,Firewalls,troubleshouting,active directory and etc.</li>
+                                <li><span>CyberSecurity BiBLE </span><br>attacks type, how to protect and prevention </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-skull-crossbones"></i>
+                <h2>Pentesting</h2>
+                <p>Penetration testing, or pentesting, is a cyberattack simulation conducted on a computer system to evaluate its security and discover potential vulnerabilities that attackers could exploit</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>Create vulnerable sytem for Experience of pentesting</h2>
+                <p>i make you a website and add all sorts of vulnerabilities to that system so you can pemtest as legally as in real life</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-redhat"></i>
+                <h2>Teaching of CyberSecurity</h2>
+                <p>i teach you of cybersecurity and you will be penetration tester a few years later when finished lessons!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- ---------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ethical.png">
+                <div class="layer">
+                    <h3>Ethical Hacker certificate</h3>
+                    <p>The Cisco Ethical Hacker certification proves advanced cybersecurity skills and enhances ethical hacking expertise. 🚀</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cc.png">
+                <div class="layer">
+                    <h3>Cc Certficate</h3>
+                    <p>The CC certification is highly valuable, especially for professionals entering the world of cybersecurity. 🚀</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------------------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> salom@example.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> +998 77 777 77 77</p>
+                <div class="social-icons">
+                    <a href="http://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="cv-template.pdf" download class="btn btn2">Downlaod CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Sumbit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Ulugbek. Made with <i class="fas  fa-heart"></i>  by Easy  Tutorials</p>
+    </div>
+</div>
+
+<script>
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var     sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+
+</body>
+</html>
